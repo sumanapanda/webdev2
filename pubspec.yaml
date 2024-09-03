@@ -1,0 +1,27 @@
+name: agri_tech_app
+description: A Flutter app for AgriTech.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5 # For state management, if needed
+  image_picker: ^0.8.6+3 # For picking images from gallery or camera
+  url_launcher: ^6.0.9 # For launching URLs
+  video_player: ^2.4.5 # For video playback
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background.mp4 # Ensure you have this video in the assets folder
